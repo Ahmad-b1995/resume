@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.main-container {
+  height: 100vh;
+  aspect-ratio: 1/1.4142;
+}
+
+.info-and-socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 160px;
+}
+
+.profile-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  /* border-radius: 100%; */
+}
+
+.profile-image {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.info-container {
+  /* background-color: yellowgreen; */
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.name {
+  font-weight: 600;
+  color: #3b4147;
+}
+
+.socialmedia-list {
+  font-size: 0.8rem;
+  color: #5b6e80;
+  list-style: none;
+}
+
+.socialmedia-list > li {
+  padding-bottom: 6px;
+}
+
+.socialmedia-list  .fa,.fa-brands {
+    margin-right: 5px;
+  }
+
+.job-title-container {
+  background-color: antiquewhite;
+}
+
+.about-me-container {
+  background-color: aquamarine;
+}
+
+.core-competencies-container {
+  background-color: brown;
+}
+
+.professional-experience-container {
+  background-color: cadetblue;
+}
+
+.education-container {
+  background-color: burlywood;
+}
+
+.technical-skills-container {
+  background-color: coral;
+}
+
+.additional-credentials-container {
+  background-color: cornflowerblue;
+}
+
+.block {
+  padding: 20px;
+}

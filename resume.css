@@ -14,10 +14,19 @@ a:active {
   text-decoration: none;
 }
 
-.title{
+ul {
+  list-style-position: inside;
+}
+
+.primary-title {
   font-size: 1rem;
   font-weight: 600;
   color: #3b4147;
+}
+
+.secondary-title {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .main-container {
@@ -64,10 +73,12 @@ a:active {
   color: #3b4147;
 }
 
-.socialmedia-list, .socialmedia-list *  {
+.socialmedia-list,
+.socialmedia-list * {
   /* font-size: 0.85rem; */
   color: #5b6e80;
   list-style: none;
+  list-style-position: inside;
 }
 
 .socialmedia-list > li {
@@ -86,8 +97,7 @@ a:active {
   justify-content: center;
 }
 
-
-.dark-block{
+.dark-block {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,12 +108,26 @@ a:active {
 
 .core-competencies-list {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin-left: 25px;
-  column-gap: 40 px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
 }
 
+.job-title-job-info-container{
+  margin-bottom: 6px;
+}
 
+.job-title{
+  display: inline;
+}
+
+.job-info{
+  display: inline;
+  margin-left: 10px;
+}
+
+.job-main-container:not(:last-child){
+  margin-bottom: 10px;
+}
 
 .professional-experience-container {
 }

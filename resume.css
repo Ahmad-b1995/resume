@@ -126,18 +126,16 @@ ul {
 }
 
 .job-main-container:not(:last-child){
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .professional-experience-container {
 }
 
 .education-container {
-  background-color: burlywood;
 }
 
 .technical-skills-container {
-  background-color: coral;
 }
 
 .additional-credentials-container {
